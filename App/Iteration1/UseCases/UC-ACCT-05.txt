@@ -1,0 +1,38 @@
+Use Case UC-ACCT-05 Reset Password
+ID:       UC-ACCT-05
+Scope:    FitLife
+Level:    User Goal
+Stakeholders and Interests
+    Customer
+        -Wants to be able to reset their password if forgotten
+        -Expects password reest to utilize their email
+Pre-Conditions
+    User is not logged in
+    User is at the sign in screen
+Post-Condition
+    User has reset their password
+Main Success Scenario
+    1. User presses the "Forgot Password" button
+    2. System asks for the user's email or username
+    3. System creates a temporary password that can be used to sign in to the account
+    4. System sends a message to the associated account's email address that contains a temporary password
+    5. User signs in using their temporary password
+    6. System asks the user to input a new password twice
+    7. User inputs a new password twice
+    8. System changes the account's password to the new password
+    9. System removes the temp password
+Extensions
+    2a. User enters a username or email that is not associated with an account
+        1. System sends an error message to the user and returns to the beginning of step 2
+    3-4a. User signs in using their old password
+        1. System deletes the temporary password so it can't be used
+    3a. Temporary password already associated with the account
+        1. Delete the old temporary password and replace it with the new one
+    5a. User has not signed in within 24 hours
+        1. System deletes the temporary password so it can't be used
+    7a. Input password does not match
+        1. Display an error message and return to step 7
+    7b. Passwords do not meet password requirements
+        1. Display an error message and return to step 7
+    7c. Passwords entered are the same as the account's current password
+        1. Display an error message and return to step 7

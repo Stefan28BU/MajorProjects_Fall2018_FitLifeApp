@@ -1,0 +1,76 @@
+Use Case UC-REPORT-04: Add Hydration
+Scope: FitLife application
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants to have a simple and fast interaction with the system. 
+                       Wants to add the correct information.
+                       Wants to be able to add a hydration quickly.
+    
+Precondition: User is registered and has successfully logged in.
+
+Postcondition: Hydration information is saved. Information is updated. Database is updated.
+
+Main Success Scenario:
+
+    1. Registered user arrives at home screen
+    
+    2. User selects "Add Hydration" from the side menu
+    
+    3. System displays a selection of different types of beverage, and prompts for user input
+    
+    4. User select the type of beverage and enter the amount
+    
+    5. User clicks "Save" button
+    
+    6. User repeats steps 2-4 unil compeleted
+    
+    7. Systems captures the information
+    
+    8. Information is updated and stored in database
+    
+    9. User reviews information and logout
+    
+Extensions:
+    
+    *a. At any time, Systems fails:
+    
+        1. User restarts the system
+        
+        2. User logs in
+        
+        3. User repeats the process of adding a hydration
+        
+    *b. User entered incorrected information
+       
+        1. User clicks "Edit Hydration" button
+        
+        2. User enters desired information
+        
+        3. User saves 
+        
+    *c. User decided to change hydration
+        
+        1. User clicks "Delete hydration" button
+        
+        2. System displays a confirmation message to reassure the action
+        
+        3. User clicks "Yes" to delete the selected hydration, or "Cancel" to cancel the action
+        
+        4. System stores information
+        
+        5. Information is updated and stored into the database
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

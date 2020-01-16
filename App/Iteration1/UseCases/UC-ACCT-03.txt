@@ -1,0 +1,60 @@
+Use Case UC-ACCT-03 Edit Account
+ID:       UC-ACCT-03
+Scope:    FitLife
+Level:    User Goal
+Stakeholders and Interests
+    Customer
+        -Wants to be able to edit username, password, email, and avatar
+Pre-Conditions
+    User is logged in
+    User is at home page
+Post-Condition
+    User has edited desired detail
+Main Success Scenario
+    1. User navigates to their account settings
+    2. System displays all account info
+    3. User selects desired setting to change
+    4. System handles the change
+    5. System stores the changed setting
+Extensions
+    4a. User wishes to edit their email
+        1. User enters their password to validate identity
+            1a. User enters wrong password
+                1. System displays an error message and asks user to re-enter their password
+                2. System returns to step 4a-1
+        2. User enters a the new email address
+        3. System removes the email's association with the account
+            3a. There are no more accounts associated with that email
+                1. System removes that email from the database
+        4. System associates the new email with the account
+            4a. The email is not in the database
+                1. The new email is added to the database
+    4b. User wishes to edit their password
+        1. System requests that the user enter their old password, and their new password twice
+            1a. Old password does not match current password
+                1. System displays an error message and returns to step 4b-1
+            1b. The entries of the new password do not match
+                1. System displays an error message and returns to step 4b-1
+            1c. The user's new passwird does not meet the password requirements
+                1. System displays an error message and returns to step 4b-1
+            1d. The user's new password is the same as the user's old password
+                1. System displays an error message and returns to step 4b-1
+        2. System sets the user's new password
+    4c. User wishes to edit their username
+        1. User enters their password to validate identity
+            1a. User enters wrong password
+                1. System displays an error message and asks user to re-enter their password
+                2. System returns to step 4c-1
+        2. User enters a the new username
+            2a. Entered username is already taken
+                1. System displays an error message and returns to step 4c-2
+        3. System removes the old username's association with the account
+        4. System associates the new username with the account
+    4d. User wishes to edit their avatar
+        1. System requests the user to upload a file
+        2. User uploads a file
+            2a. Image file is an incorrect ratio
+                1. System displays the image, with a box representing the appropriate image ratio
+                2. System crops the image
+        3. System deletes the account's previous avatar
+        4. System sets the account's image to the uploaded avatar

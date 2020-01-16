@@ -1,0 +1,75 @@
+Use Case: UC-REPORT-03: Add Meal.
+
+Scope: FitLife Application.
+
+Level: User Goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    -Registered User:   Wants a simple interaction with the system. 
+                        Wants to accurately be able to enter meal information.
+                        Wants to enter information quickly.
+
+Preconditon: User is registered and successfully logged in.
+
+Postcondition: Meal information is saved.
+
+Main Success Scenario:
+
+    1. Registered user arrives at home screen. 
+    
+    2. User selects Nutrition from home screen. 
+    
+    3. System displays Nutrition screen. 
+    
+    4. User selects date.
+    
+    5. System displays form for user to fill out information about meal
+        with criteria such as protein, carbohydrates, natural fats, and others.
+    
+    6. User fills out criteria with meal information. 
+    
+    7. User selects to add meal to selected date. 
+    
+    8. System captures information.
+    
+    9. Information stored in database.
+    
+    10. User logs out and exits application. 
+
+Extensions:
+
+    *a. User tries to enter meal without selecting date:
+    
+        1. System prompts user to choose a date.
+        
+        2. User selects date.
+        
+        3. User re-enters meal information. 
+        
+        4. User adds meal to that date.
+        
+    *b. At any time the system fails:
+    
+        1. User restarts the System, logs in, and starts Scenario over again.
+        
+    *c. User navigates to a different page before adding meal:
+    
+        1. All unsaved info is lost.
+        
+        2. User must navigate back and re-enter information. 
+        
+    8.a. User wants to remove entered information:
+    
+        1. User selects date.
+        
+        2. System displays all previously entered meals on that date. 
+        
+        3. User chooses delete on the meal to be deleted.
+        
+        4. Meal is deleted and removed from display. 
+        
+        5. Meal removed from database.
+        
+        6. Dataase updated.

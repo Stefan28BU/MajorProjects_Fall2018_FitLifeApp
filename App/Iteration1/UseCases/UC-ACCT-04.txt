@@ -1,0 +1,24 @@
+Use Case UC-ACCT-04 View Info
+ID:       UC-ACCT-04
+Scope:    FitLife
+Level:    User Goal
+Stakeholders and Interests
+    Customer
+        -Wants to be able to easily view info about a specific subject
+Pre-Conditions
+    User is logged in
+    User is at the home screen
+Post-Condition
+    User is viewing the information about a health subject
+Main Success Scenario
+    1. User selescts the info screen from the home page
+    2. System displays the main page of the information section
+    3. User selects the topic he wishes to know more about
+    4. System displays information about the topic, as well as any subtopics that might exist
+    5. User Selects a sub topic to view
+    6. System displays information about the subtopic
+Extensions
+    a. User wishes to stop viewing informatio
+        1. User may navigate to a different page
+        2. User may close the application
+        3. User may log out

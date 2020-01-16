@@ -1,0 +1,59 @@
+Use Case UC-Plan-03: Plan Sleep
+
+Scope: FitLife application
+
+Level: User Goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants a simple interaction with the system. Wants to future sleep. 
+                       Wants to prefill the time, date, and duration for easier completion later.
+                       
+Preconditon: User is registered and has successfully logged in.
+
+Postcondition: Future sleep is logged and waiting for user to complete
+
+Main Success Scenario:
+
+    1. Registered User arrives at home screen
+    
+    2. User selects "Plan" from the side menu
+    
+    3. System displays the options for planning
+    
+    4. User selects "Sleep" from the planning menu
+    
+    5. System prompts user from time, duration, and date
+    
+    6. User enters require information and clicks the "Submit" button
+	
+	7. System takes User to the Plan Sleep page
+	
+		Repeats steps 5-7 until all desired sleep has been planned
+		
+	8. User logs out and exits program
+    
+Extensions
+
+    *a. at anytime User navigates to a different page
+    
+         1.  End Process
+     
+    *b. at anytime the system fails
+    
+         1.  User restarts the System, logs in, and starts Scenario over again
+         
+    7a. User wants to delete planned sleep
+    
+         1. User selects the "Delete Entry" option
+         
+         2. The system displays the log of planned sleeps
+         
+         3. The user selects the sleep(s) to be deleted
+         
+         4. The system asks the user if he/she wants to delete the sleep(s) for good
+         
+         5. The user replies yes and is taken back to the Sleep Plan page
+	
+		

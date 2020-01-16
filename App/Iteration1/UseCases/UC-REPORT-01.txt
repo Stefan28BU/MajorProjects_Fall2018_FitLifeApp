@@ -1,0 +1,70 @@
+Use Case UC-REPORT-01: Add Workout
+
+Scope: FitLife application
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants to have a simple and fast interaction with the system. 
+                       Wants to add the correct information.
+                       Wants to be able to add a workout quickly.
+    
+Precondition: User is registered and has successfully logged in.
+
+Postcondition: Workout information is saved. Information is updated. Database is updated.
+
+Main Success Scenario:
+
+    1. Registered user arrives at home screen
+    
+    2. User selects "Add Workout" from the side menu
+    
+    3. System displays a selection of different kinds of workout, and prompts for user's choice
+    
+    4. User selects a workout
+    
+    5. User clicks "Save" button
+    
+    6. User repeats steps 2-5 unil compeleted
+    
+    7. Systems captures the information
+    
+    8. Information is updated and stored in database
+    
+    9. User is able to plan and review workout before logout
+    
+    10. User logs out
+    
+Extensions:
+    
+    *a. At any time, Systems fails:
+    
+        1. User restarts the system
+        
+        2. User logs in
+        
+        3. User repeats the process of adding a workout
+        
+    2-5.a User entered undesired workout
+       
+        1. User clicks "Delete Workout" button
+        
+        2. System displays a confirmation message to reassure the action
+        
+        3. User clicks "Yes" to delete the selected workout, or "Cancel" to cancel the action
+        
+        4. System stores information
+        
+        5. Information is updated and stored into the database
+        
+    2-5.b User decided to change workout
+        
+        1. User clicks "Delete Workout" button
+        
+        2. System displays a confirmation message to reassure the action
+        
+        3. User clicks "Yes" to delete the selected workout, or "Cancel" to cancel the action
+        
+        4. System stores information
+        
+        5. Information is updated and stored into the database

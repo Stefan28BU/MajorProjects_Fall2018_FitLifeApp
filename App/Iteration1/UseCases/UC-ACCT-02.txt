@@ -1,0 +1,28 @@
+Use Case UC-ACCT-02 Delete Account
+ID:       UC-ACCT-02
+Scope:    User Account
+Level:    User Goal
+Stakeholders and Interests
+    Customer
+        -Wants an easy process
+        -Wants their data to be removed
+Pre-Conditions
+    User is logged in
+    User is at the home screen
+Post-Condition
+    User's account has been deleted
+Main Success Scenario
+    1. User navigates to the account settings
+    2. System displays details about user account
+    3. User selects "Delete Account" option
+    4. System asks to verify the user's choice
+    5. User confirms their intent
+    6. System logs the user out
+    7. System deletes the user's account
+Extensions
+    1-4a. Anytime user visits another page
+        1. Stop process
+    1-4b. Anytime user closes the application
+        1. Stop Process
+    5a. User does not wish to delete account
+        1. Return the system to it's state after step 2

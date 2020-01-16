@@ -1,0 +1,29 @@
+Use Case UC18: User wants to log-in
+
+Scope: FitLife
+
+Level: user goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+- Registered User:
+Wants accurate, fast entry, as registered user entered their correct account information with their corresponding password.
+- Database:
+Wants to receive correct login account information from user.
+ 
+Preconditions:
+User has registered an account and user information has identified.
+
+Success Guarantee (or Postconditions):
+User account information and password are correct. User can access into their account.
+
+Main Success Scenario (or Basic Flow):
+1. User open Its Fit application getting into the Log in page.
+2. User entered their user name and corresponding password.
+3. System recognized the user account and let user get into their main page.
+
+Extensions (or Alternative Flows):
+2a.	User entered wrong account information of either username or password.
+    1. System signals error to the User, records the error, and enters a clean state.
+    2. System ask user to enter their log in information again.

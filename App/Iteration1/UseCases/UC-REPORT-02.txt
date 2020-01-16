@@ -1,0 +1,58 @@
+Use Case UC-REPORT-02: Add Sleep
+
+Scope: FitLife application
+
+Level: User Goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants a simple interaction with the system. Wants to accurately record sleep quality and time.
+                       Wants to enter information quickly.
+                       
+Preconditon: User is registered and has successfully logged in.
+
+Postcondition: Sleep information is saved. Statistics are updated.
+
+Main Success Scenario:
+
+    1. Registered User arrives at home screen
+    
+    2. User selects "Add Sleep" from the side menu
+    
+    3. System prompts user for required sleep information
+    
+    4. User enters quality and duration of sleep        
+
+            User repeats steps 2-4 until completed
+    
+    5. System captures the information
+    
+    6. Database stores the information
+    
+    7. Statistic Library generates and updates statistic
+    
+    8. User reviews statistics and logs out when complete
+    
+Extensions
+
+    *a. at anytime User navigates to a different page
+    
+         1.  End Process
+     
+    *b. at anytime the system fails
+    
+         1.  User restarts the System, logs in, and starts Scenario over again
+         
+     8a. User wants to remove entry
+     
+         1. User selects the "Delete Entry" option
+         
+         2. The system displays the log of sleeps
+         
+         3. The user selects the sleep(s) to be deleted
+         
+         4. The system asks the user if he/she wants to delete the sleep(s) for good
+         
+         5. The user replies yes and is taken back to the Sleep page
+     

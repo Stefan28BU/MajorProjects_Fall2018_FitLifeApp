@@ -1,0 +1,76 @@
+Use Case UC-PLAN-01: Plan Workout
+
+Scope: FitLife
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants to have a simple and fast interaction with the system. 
+                       Wants to have the exact information stored in the system.
+                       Wants to be able to plan a workout quickly.
+    
+Precondition: User is registered and has successfully logged in. User has added a workout.
+
+Postcondition: Workout information is saved. Information is updated. Database is updated.
+
+Main Success Scenario:
+
+    1. Registered user arrives at home screen
+    
+    2. User chooses an existing workout
+    
+    3. System displays information of the selected workout
+    
+    4. User selects a workout
+    
+    5. User clicks "Plan Workout" button
+    
+    6. User repeats steps 2-4 until compeleted
+    
+    7. System displays a series of choices for the user to enter, including:
+           the Duration of workout, the Date and Time of workout, and the
+           additional Note for the workout
+    
+    8. User selects a category and enters information
+    
+    9. Information is updated and stored in database
+    
+    10. User is able to review workout before logout
+    
+    11. User logs out
+    
+Extensions:
+    
+    *a. At any time, Systems fails:
+    
+        1. User restarts the system
+        
+        2. User logs in
+        
+        3. User repeats the process of planning a workout
+        
+    8.a User selected the wrong choice before saving
+       
+        1. User clicks "cancel" to go to the previous page
+        
+        2. User repeats the process
+        
+        3. User clicks "Save" to save the information
+        
+        4. Information is updated and stored in the database
+        
+    2-9.a User decides to change information after saving
+        
+        1. User clicks "Plan Workout" button
+        
+        2. System displays a series of choices for the user to enter, including:
+           the Duration of workout, the Date and Time of workout, and the
+           additional Note for the workout
+        
+        3. User selects and enters desired information
+        
+        4. User clicks "Save" to save
+        
+        5. System stores information
+        
+        6. Information is updated and stored into the database

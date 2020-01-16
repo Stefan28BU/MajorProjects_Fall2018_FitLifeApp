@@ -1,0 +1,18 @@
+1.  Add Workout							UC-REPORT-01
+2.  Add Sleep							UC-REPORT-02
+3.  Add Meal							UC-REPORT-03
+4.  Add Hydration						UC-REPORT-04
+5.  Plan Workout						UC-PLAN-01
+6.  Plan Meal							UC-PLAN-02
+7.  Plan Sleep							UC-PLAN-03
+8.  Review Wokouts						UC-REVIEW-01
+9.  Review Sleep						UC-REVIEW-02
+10. Review Diet							UC-REVIEW-03
+11. Review Hydration					UC-REVIEW-04
+12. Review BMI trends					UC-REVIEW-05
+13. User Wants to create an account		UC-ACCT-01
+14. User wants to delete their account	UC-ACCT-02
+15. User wants to edit email/username	UC-ACCT-03
+16. User wants to view information		UC-ACCT-04
+17. User wants to reset password		UC-ACCT-05
+18. User wants to log-in				UC-ACCT-06

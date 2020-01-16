@@ -1,0 +1,35 @@
+Use Case UC-ACCT-01 Create Account
+ID:       UC-ACCT-01
+Scope:    User Account
+Level:    User Goal
+Stakeholders and Interests
+    Customer
+        -Wants fast and easy account creation
+        -Expects to give Username, email, and password
+    Admin
+        -Expects user info to be stored for mass-viewing
+Pre-Conditions
+    User is not logged in
+    User is on the home screen
+Post-Condition
+    An account has been created
+Main Success Scenario
+    1. User selects the "Create an account" option
+    2. System displays input boxes asking for email, username, and password
+    3. User inputs the required field
+    4. System teporarily stores the data
+    5. System sends an email to the user's email to verify the email
+    6. User follows the link in their email to verify their email
+    7. System creates a new account with the data the user entered
+    8. System sends the user back to the home screen
+Extensions
+    3a. Entered username is already linked to a different account
+        1. System will display "Username already taken"
+        2. System will return to the start of step three
+    3b. Entered Password does not fulfill the requirement
+        1. System displays a message about what requirement was not fulfilled
+        2. System returns to the start of step 3
+    6a. User does not verify their account within 48 hours
+        1. Delete all temporarily stored data
+    6b. The email owner follows the link saying they did not sign up.
+        1. Delete all data temporarily stored.

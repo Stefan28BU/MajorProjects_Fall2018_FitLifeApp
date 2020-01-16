@@ -1,0 +1,73 @@
+Use Case UC-REVIEW-03: Review Diet
+
+Scope: FitLife Application
+
+Level: User Goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User:  Wants a simple interaction with the system.
+                        Wants to view diet history. 
+                        Wants to be able to review diet. 
+                        Wants to be able to filter by day, month, and year.
+
+Precondition: User is registered and has successfully logged in. 
+
+Postcondition: User is able to view diet statistics and trends.
+
+Main Success Scenario:
+    
+    1. Registered user arrives at home screen.
+    
+    2. User selects "Review Nutrition" from home screen.
+    
+    3. System displays calender.
+    
+    4. User selects a specific day, week, month, or year from the calender.
+    
+    5. Diet trends and information are displayed based on selected timeframe.
+    
+    6. User reviews diet.
+    
+    7. User repeats steps 4-6 until finished.
+
+Extensions:
+
+    *a. At any time, system fails:
+    
+        1. User restarts system.
+        
+        2. User logs in.
+        
+        3. User begins scenario again.
+
+    *b. At any time user navigates to new page:
+    
+        1. End process.
+        
+    4.a. User selects a specific day:
+    
+        1. Diet trends and information adjusted for that selected day.
+        
+        2. User reviews trends and information for that day.
+        
+    4.b. User selects a specific week:
+        
+        1. Diet trends and information adjusted for that selected week.
+        
+        2. User reviews trends and information for that week.
+    
+    4.c. User selects a specific month:
+        
+        1. Diet trends and information adjusted for that selected month.
+        
+        2. User reviews trends and information for that month.
+        
+    4.d. User selects a specific year:
+        
+        1. Diet trends and information adjusted for that selected year.
+        
+        2. User reviews trends and information for that year.
+        
+    

@@ -1,0 +1,68 @@
+ Use Case UC-PLAN-02: Plan Meal
+ 
+ Scope: FitLife
+ 
+ Primary Actor: Registered User
+ 
+ Stakeholders and Interests: 
+ 	- Registered User:  Wants to have a simple and fast interaction with the system.
+ 						Wants to have the exact information stored in the system.
+ 						Wants to be able to plan a meal quickly and easily.
+ 
+ Precondition: User is registered and has successfully logged in.
+ 
+ Postcondition: Meal is added to specified date selected. Information is updated. Database updated. 
+ 
+ Main Success Scenario:
+ 
+ 	1. Registered user arrives at home screen. 
+ 	
+ 	2. User selects Nutrition on home screen.
+ 	
+ 	3. User chooses a date from the list.
+ 		
+ 	4. System displays info about meal such as protein, carbohydrates,
+ 		natural fats, and calories, as well as how much water. 
+ 	
+ 	5. User enters information about their meal. 
+ 	
+ 	6. User selects to add meal to that day.
+ 	
+ 	7. Information is updated and stored in database. 
+ 	
+ 	8. User repeats steps 2-7 until finished. 
+ 	
+ 	9. User logs out and exits the program. 
+ 	
+ Extensions:
+ 
+ 	*a. System fails at any given time:
+ 	
+ 		1. User restarts system
+ 		
+ 		2. User logs in
+ 		
+ 		3. User repeats process of planning their meal.
+ 		
+ 	*b. User navigates to another page during planning:
+ 		
+ 		1. End process.
+ 		
+ 		2. No new information saved. 
+ 		
+ 	3.a. User selects wrong date:
+ 		
+ 		1. User simply clicks on their preferred date.
+ 		
+ 		2. Re-Enter meal information.
+ 			
+ 	8.a. User wants to delete a meal:
+ 	
+ 		1. User selects a date.
+ 		
+ 		2. User chooses meal from the entered meals on that day.
+ 		
+ 		3. User selects to delete on the meal they would like removed.
+ 		
+ 		4. Meal is removed from that days meals.
+

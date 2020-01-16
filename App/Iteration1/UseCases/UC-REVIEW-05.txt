@@ -1,0 +1,34 @@
+Use Case UC13: Review BMI Trends
+
+Scope: FitLife Application
+
+Level: user goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+- Registered User:
+Wants to have a simple and fast interaction with the system, able to keep track on the BMI trends, calculate and update the current BMI.
+- Database:
+Wants to receive correct (reasonable) information of weight and height from user.
+ 
+Preconditions:
+User has logged into their account and user information has identified.
+
+Success Guarantee (or Postconditions):
+User can update their current BMI and get the BMI trend.
+
+Main Success Scenario (or Basic Flow):
+1. User select BMI Trends from the user main page.
+2. User entered their height and weight into the System.
+3. System calculate the user’s current BMI and update the BMI trends.
+4. System shown the BMI trends to User.
+
+Extensions (or Alternative Flows):
+*a. At anytime User navigates to a different page
+ 	1.  End Process
+*b. Anytime user closes the application
+	1. End Process
+2a. User entered unreasonable input into System.
+    1.System signals error to the User, records the error, and enters a clean state.	
+    2. System ask user to enter their information again.

@@ -1,0 +1,69 @@
+Use Case UC-REVIEW-01: Review Workout
+
+Scope: FitLife application
+
+Level: User Goal
+
+Primary Actor: Registered User
+
+Stakeholders and Interests:
+    - Registered User: Wants a simple interaction with the system. 
+                       Wants to view added workouts. 
+                       Wants to be able to review a workout. 
+                       Wants to be able to filter by week, month, and year.
+                       Wants to be able to view the total workouts within a week, a month, or a year.
+                       
+Preconditon: User is registered and has successfully logged in.
+             User has added at least one workout
+
+Postcondition: workout information and trends are displayed to User
+
+Main Success Scenario:
+
+    1. Registered User arrives at home screen
+    
+    2. User selects "Review Workout" from the side menu
+    
+    3. System displays the trend options
+    
+    4. User selects "Workout" from the trends menu
+    
+    5. System displays workout trends in graphical format
+    
+    6. User reviews workout
+    
+Extensions:
+
+    *a. at anytime User navigates to a different page
+    
+         1. End Process
+     
+    *b. at anytime the system fails
+    
+         1. User restarts the System
+         
+         2. user logs in, and starts Scenario over again
+         
+    6.a Weekly Trends
+    
+        1. User selects "Weekly" option
+        
+        2. System displayes the modified graph of trends for the current week
+        
+        3. User reviews the weekly trends
+        
+    6.b Monthly Trends
+    
+        1. User selects "Monthly" option
+        
+        2. System displayes the modified graph of trends for the current month
+        
+        3. User reviews the "Monthly" trends
+        
+    6.c Yearly Trends
+    
+        1. User selects "Yearly" option
+        
+        2. System displayes the modified graph of trends for the current year
+        
+        3. User reviews the "Yearly" trends

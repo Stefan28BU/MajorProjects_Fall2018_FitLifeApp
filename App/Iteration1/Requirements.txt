@@ -1,0 +1,43 @@
+Requirements:
+
+1.  (FUNCTIONAL)     New users can easily create an account
+2.  (FUNCTIONAL)     Existing users just enter their log in information
+3.  (FUNCTIONAL)     When a user is done using the system they can logout or exit
+4.  (FUNCTIONAL)     If the user doesn't log out or exit the system needs to continue to run
+5.  (FUNCTIONAL)     Memebers have the option to delete their account
+6.  (FUNCTIONAL)     When an account is deleted all associated data is deleted
+7.  (FUNCTIONAL)     The system can logs workouts
+8.  (FUNCTIONAL)     Workouts need to be defined by a type
+9.  (FUNCTIONAL)     Workouts can be edited by users in case of a mistake
+10. (FUNCTIONAL)     Workouts are deletable in case of mistakes
+11. (FUNCTIONAL)     Workouts include a duration
+12. (FUNCTIONAL)     If weights are used in a workout, the weight can be added
+13. (FUNCTIONAL)     Workout progress is trackable
+14. (NON-FUNCTIONAL) Workout progress is easily readable
+15. (FUNCTIONAL)     Progress is trackable over a week, month, and yearly basis
+16. (FUNCTIONAL)     System  tracks users eating habits
+17. (FUNCTIONAL)     Users can add meals
+18. (FUNCTIONAL)     A meal has a description that is entered by the user
+19. (FUNCTIONAL)     Macros (calories, carbs, etc.) are captured by the system 
+20. (FUNCTIONAL)     A meal can be edited in case of mistakes
+21. (FUNCTIONAL)     If a meal wasn't eaten or entered improperly it can be deleted
+22. (FUNCTIONAL)     System tracks a user's hydration
+23. (FUNCTIONAL)     Hydration information is editable in case of mistake
+24. (FUNCTIONAL)     Users can reset their passwords if they have forgotten them
+25. (FUNCTIONAL)     The system tracks users' sleep habits
+26. (FUNCTIONAL)     Sleep times are entered and recorded by the system
+27. (FUNCTIONAL)     An overall rating for sleep is entered by the user
+28. (FUNCTIONAL)     System keeps track of the user's weight trends
+29. (FUNCTIONAL)     Workouts require body weight after to be input
+30. (FUNCTIONAL)     System provides BMI predictions based on past workouts
+31. (FUNCTIONAL)     Excercise stats are tracked and logged for statistical analysis
+32. (FUNCTIONAL)     meals and workout can be preplanned and checked off when completed
+33. (FUNCTIONAL)     Additional Information should exist in the system
+34. (FUNCTIONAL)     Additional information includes proper weightlifting/workout/eating/and sleeping habits
+35. (FUNCTIONAL)     Safety information is easily accessible to the user
+36. (FUNCTIONAL)     Additional information includes helpful tips to accomplishing workout/lifestyle goals
+37. (FUNCTIONAL)     System stores information to user's account
+38. (NON-FUNCTIONAL) Program must have Green and Gold color scheme
+39. (NON-FUNCTIONAL) Program must visibly indicate when an input is detected
+40. (NON-FUNCTIONAL) Must have a back button to return to the previous display
+41. (NON-FUNCTIONAL) User must provide password again to change their email or username
